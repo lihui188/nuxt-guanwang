@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.control_btn {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fff;
+}
+.control_btn span {
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+}
