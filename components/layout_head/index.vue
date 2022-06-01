@@ -2,10 +2,13 @@
   <div id="layout_header" class="layout_header">
     <a id="logo" href="#">个人摄影小站</a>
     <ul>
-      <li><a href="#">首页</a></li>
+      <li>
+        <nuxt-link to="#"><i class="iconfont icon-home"></i>首页</nuxt-link>
+      </li>
+      <!-- <li><a href="#">首页</a></li>
       <li><a href="#">分类</a></li>
       <li><a href="#">全部文章</a></li>
-      <li><a href="#">关于我</a></li>
+      <li><a href="#">关于我</a></li> -->
     </ul>
   </div>
 </template>
@@ -13,7 +16,7 @@
 export default {
   name: 'layout-head',
   mounted() {
-    window.addEventListener('scroll', this.handleScroll)
+    // window.addEventListener('scroll', this.handleScroll)
   },
   methods: {
     handleScroll() {
@@ -40,12 +43,12 @@ export default {
   justify-content: space-between;
   padding: 0 20px;
 }
-a {
+/* a {
   text-decoration: none;
 }
 a:focus {
   border: none;
-}
+} */
 #logo {
   color: #333;
   font-size: 26px;
@@ -66,11 +69,11 @@ ul li a {
   color: #333;
   font-size: 16px;
   padding: 8px 20px;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
-ul li a:hover {
+/* ul li a:hover {
   background-color: #333;
   color: #fff;
   border-radius: 20px;
-}
+} */
 </style>

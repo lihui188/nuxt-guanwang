@@ -5,6 +5,7 @@
       <nuxt />
     </div>
     <layout-foot></layout-foot>
+    <back-top></back-top>
   </div>
 </template>
 <script>

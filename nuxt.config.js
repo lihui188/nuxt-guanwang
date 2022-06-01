@@ -18,7 +18,11 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['assets/css/normalize.css', 'assets/css/global.css'],
+  css: [
+    'assets/css/normalize.css',
+    'assets/css/global.css',
+    'assets/css/iconfont.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -30,8 +34,8 @@ export default {
     '@/plugins/axios',
     {
       src: '@/plugins/vue-lazyload',
-      ssr: false
-    }
+      ssr: false,
+    },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
