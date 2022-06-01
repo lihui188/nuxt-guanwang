@@ -87,6 +87,12 @@ export default {
           u_img: 'test.jpeg',
           u_name: '开发者',
         },
+        {
+          e_img: require('~/assets/images/saber/9.jpg'),
+          e_intro: '描述信息',
+          u_img: 'test.jpeg',
+          u_name: '开发者',
+        },
       ],
     }
   },

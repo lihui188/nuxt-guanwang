@@ -82,5 +82,6 @@ export default {
 .icon-ico-to-top {
   color: #409eff;
   font-size: 50px;
+  font-weight: bold;
 }
 </style>
